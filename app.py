@@ -15,7 +15,7 @@ def get_gemini_response(question):
 
 #Initialise streamit app
 st.set_page_config(page_title = 'Q&A Demo')
-st.header('Gemini LLM Application')
+st.header('Gemini GPT Application')
 input = st.text_input("Input:",key="input")
 submit = st.button("Ask the question")
 

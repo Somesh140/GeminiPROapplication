@@ -17,7 +17,7 @@ def get_gemini_response(question):
 st.set_page_config(page_title = 'Q&A Demo')
 st.header('Gemini LLM Application')
 input = st.text_input("Input:",key="input")
-submit = st.button("Aak the question")
+submit = st.button("Ask the question")
 
 # when submit button is clicked
 if submit:

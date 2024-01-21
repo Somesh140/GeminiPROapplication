@@ -46,3 +46,18 @@ if uploaded_file is not None:
 
 
 submit=st.button("Tell me the total calories")
+
+input_prompt="""
+You are an expert in nutritionist where you need to see the food items from the image
+               and calculate the total calories, also provide the details of every food items with calories intake
+               is below format
+
+               1. Item 1 - no of calories
+               2. Item 2 - no of calories
+               ----
+               ----
+
+
+"""
+
+## If submit button is clicked
